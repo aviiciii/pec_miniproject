@@ -1,1 +1,1 @@
-# pec_miniproject
+# pechacks_qr
