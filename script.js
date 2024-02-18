@@ -1,5 +1,5 @@
 // script.js file
-const base_url = "https://pechacksqr.azurewebsites.net";
+const base_url = "http://127.0.0.1:5000";
 
 
 function domReady(fn) {

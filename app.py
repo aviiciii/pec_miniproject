@@ -38,7 +38,7 @@ def check_in(team, members):
         return 400
 
     gc = gspread.service_account(filename="credentials.json")
-    sh = gc.open_by_key("1Y2JkNQYKJcvcYoOMzAAItWF6RGf0hWbviSWrwEOYN9M").get_worksheet(2)
+    sh = gc.open_by_key("186BExu_K9F09LAad1nUojNIAb3ybc225yudZ1_FOq8Y").get_worksheet(0)
 
     print("Connected to Google Sheet!")
 
@@ -78,7 +78,7 @@ def check_in(team, members):
 
 def team_details(team):
     gc = gspread.service_account(filename="credentials.json")
-    sh = gc.open_by_key("1Y2JkNQYKJcvcYoOMzAAItWF6RGf0hWbviSWrwEOYN9M").get_worksheet(2)
+    sh = gc.open_by_key("186BExu_K9F09LAad1nUojNIAb3ybc225yudZ1_FOq8Y").get_worksheet(0)
 
     print("Connected to Google Sheet!")
 
