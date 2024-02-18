@@ -1,1 +1,3 @@
-# pechacks_qr
+# Mini Project
+
+
